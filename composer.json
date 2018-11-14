@@ -1,19 +1,8 @@
 {
-    "name": "ebaocd/database",
+    "name": "eboacd/database",
     "description": "mvc database factory class",
     "type": "library",
-    "license": "GPLV3",
-    "authors": [
-        {
-            "name": "Xiuluo",
-            "email": "5192412@qq.com"
-        }
-    ],
+    "license": "MIT",
     "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "eBaocd\\DataBase\\": "src/"
-        }
-    }
+    "require": {}
 }
