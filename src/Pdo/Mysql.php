@@ -47,7 +47,7 @@ class Mysql extends DbAbstract
 	protected function _Dsn()
 	{
 		$dsn = "mysql:host=".$this->_config['host'].";port=".$this->_config['port'].
-		";database=".$this->_config['dbname'];
+		";database=".$this->_config['database'];
 
 		//mysql:host=localhost;port=3307;dbname=testdb
 		 
