@@ -9,7 +9,7 @@ class DbFactory
 	{
 		//避免重复创建连接
 		global $APP_G;
-		if($APP_G[$configname]['driver'] == 'mssql')
+		if($APP_G[$configname]['dbtype'] == 'mssql')
 		{
 			$sqltype = '\\eBaocd\\DataBase\\Pdo\\Mssql';
 		}else{
